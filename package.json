@@ -1,21 +1,34 @@
-{ "name" : "node-recurly"
-, "description" : "Library for accessing the api for the Recurly recurring billing service."
-, "keywords" : [ "recurly", "e-commerce", "recurring billing" ]
-, "version" : "2.1.1"
-, "homepage" : "https://github.com/cgerrior/node-recurly"
-, "author" : "Charlie Gerrior <charlie@recurly.com> (http://github.com/cgerrior)"
-, "contributors" : [ 
-  "Iván Guardado <dev.ivangc@gmail.com> (http://github.com/IvanGuardado)",
-  "Rob Righter <robrighter@gmail.com> (http://github.com/robrighter)",
-  "Dmitriy Shekhovtsov <valorkin@gmail.com> (https://github.com/valorkin)"
-  ]
-, "bugs" :
-  { "web" : "https://github.com/cgerrior/node-recurly/issues" }
-, "directories" : { "lib" : "./lib" }
-, "main" : "./lib/recurly.js"
-, "dependencies" : {
-    "xml2js": ">= 0.4.0",
-    "js2xmlparser": "0.1.7"
-}
-, "engines" : { "node" : ">= 0.4" }
+{
+  "name": "node-recurly",
+  "description": "Library for accessing the api for the Recurly recurring billing service.",
+  "keywords": [
+    "recurly",
+    "e-commerce",
+    "recurring billing",
+    "proxy"
+  ],
+  "version": "2.2.0",
+  "homepage": "https://github.com/akitabox/node-recurly",
+  "author": "AkitaBot <info@akitabox.com> (http://akitabox.com)",
+  "contributors": [
+    "Charlie Gerrior <charlie@recurly.com> (http://github.com/cgerrior)",
+    "Iván Guardado <dev.ivangc@gmail.com> (http://github.com/IvanGuardado)",
+    "Rob Righter <robrighter@gmail.com> (http://github.com/robrighter)",
+    "Dmitriy Shekhovtsov <valorkin@gmail.com> (https://github.com/valorkin)"
+  ],
+  "bugs": {
+    "web": "https://github.com/akitabox/node-recurly/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/recurly.js",
+  "dependencies": {
+    "js2xmlparser": "0.1.7",
+    "request": "^2.78.0",
+    "xml2js": ">= 0.4.0"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  }
 }
