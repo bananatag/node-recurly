@@ -9,11 +9,11 @@ http://dev.recurly.com/
 Installation
 ===============
 
-	git clone https://github.com/cgerrior/node-recurly.git
+	git clone https://github.com/akitabox/node-recurly.git
 	
 or you can install with NPM
 
-	npm install https://github.com/cgerrior/node-recurly.git --save
+	npm install https://github.com/akitabox/node-recurly.git --save
 
 add a config file to your project that has contents similar to:
 
@@ -24,6 +24,10 @@ add a config file to your project that has contents similar to:
 			DEBUG: false
 		};
 
+Optional Usage Behind Proxy
+===============
+
+Export the environment variable `HTTPS_PROXY` or add proxy options in the config file created above as described [here](https://github.com/request/request#proxies). Available proxy options include `PROXY`, `STRICT_SSL`, `TUNNEL`, `PROXY_HEADER_WHITE_LIST` and `PROXY_HEADER_EXCLUSIVE_LIST`.
 
 Usage
 ===============
