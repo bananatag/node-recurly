@@ -7,7 +7,7 @@
     "recurring billing",
     "proxy"
   ],
-  "version": "2.2.0",
+  "version": "2.2.1",
   "homepage": "https://github.com/akitabox/node-recurly",
   "author": "AkitaBot <info@akitabox.com> (http://akitabox.com)",
   "contributors": [
